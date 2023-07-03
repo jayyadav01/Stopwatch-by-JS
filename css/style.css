@@ -1,0 +1,52 @@
+body
+{
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.digit
+{
+    font-size: 150px;
+    font-weight: bold;
+}
+.txt
+{
+    font-size: 40px;
+    font-weight: bold;
+}
+.container
+{
+    color: #d7dfe4;
+}
+.container_button
+{
+    margin-top: 40px;
+    text-align: center;
+}
+.container_button .btn
+{
+    font-size: 15px;
+    padding: 10px 30px;
+    margin: 0 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+#start
+{
+    background-color: green;
+}
+#stop
+{
+    background-color: red;
+}
+#reset
+{
+    background-color: blue;
+}
+#sec
+{
+    color: black;
+}
